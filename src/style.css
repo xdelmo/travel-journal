@@ -106,6 +106,7 @@ nav {
 .card {
   display: flex;
   flex-direction: row;
+  padding: 2em 0;
 }
 
 .card--img {
@@ -169,10 +170,19 @@ nav {
   line-height: 150%;
 }
 
-hr {
-  margin: 2em 0;
-  background-color: var(--clr-text-light);
-  filter: brightness(150%);
+/* Dynamic cards divider  */
+
+.cards-list > .card + .card {
+  padding: 2em 0;
+  border-top: 1px solid var(--clr-text-light);
+}
+
+.cards-list .card:first-child {
+  padding-top: 0;
+}
+
+.cards-list .card:last-child {
+  padding-bottom: 0;
 }
 
 /* FOOTER */

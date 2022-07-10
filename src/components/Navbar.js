@@ -5,9 +5,9 @@ export default function Navbar() {
   return (
     <nav>
       <FontAwesomeIcon icon={faEarthEurope} className="nav--logo" />
-      <a className="nav--link-home" href="#" rel="noopener noreferrer">
-        <h1 className="nav--title">my travel journal.</h1>
-      </a>
+      {/* <a className="nav--link-home" href="#" rel="noopener noreferrer"> */}
+      <h1 className="nav--title">my travel journal.</h1>
+      {/* </a> */}
     </nav>
   );
 }

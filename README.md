@@ -31,6 +31,7 @@ This is a solution to the [Travel Journal solo project on Scrimba](https://scrim
 
 ### Links
 
+- Live Site URL: [@Netlify](https://travel-journal-xdelmo.netlify.app/)
 - Solution URL: [@GitHub](https://github.com/xdelmo/travel-journal)
 
 ### Getting Started with Create React App

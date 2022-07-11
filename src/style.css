@@ -7,16 +7,29 @@
 /* ---------------------- */
 /* Custom properties      */
 /* ---------------------- */
-
 :root {
   --clr-accent: #f55a5a;
-
-  --clr-text-main: #2b283a;
-  --clr-text-light: #918e9b;
-
-  --clr-background-light: #ffffff;
-
   --ff-main: "Inter", sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-text-main: #2b283a;
+    --clr-text-light: #918e9b;
+
+    --clr-background-light: #ffffff;
+  }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-text-main: #fff;
+    --clr-text-light: #e5e5e5;
+
+    --clr-background-light: #1d1d1c;
+  }
 }
 
 /* ---------------------- */
@@ -56,6 +69,8 @@ html {
   font-family: var(--ff-main);
   margin: 0;
   padding: 0;
+  background-color: var(--clr-background-light);
+  scroll-behavior: smooth;
 }
 
 .grey {
@@ -104,6 +119,7 @@ nav {
 }
 
 .card {
+  color: var(--clr-text-main);
   display: flex;
   flex-direction: row;
   padding: 2em 0;
@@ -126,7 +142,7 @@ nav {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
     0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
     0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
-  filter: brightness(80%);
+  /* filter: brightness(80%); */
 }
 
 .card--infos {

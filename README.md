@@ -72,7 +72,7 @@ This is my way to display dynamic divider between the second, third (and so on) 
 ### Useful resources
 
 - [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
-- [FontAwesome](https://fontawesome.com/v5/docs/web/use-with/react) - How to install FontAwesome packages for React
+- [FontAwesome](https://fontawesome.com/v5/docs/web/use-with/react) - How to install FontAwesome packages for React -[BobbyHadz](https://bobbyhadz.com/blog/react-assign-object-to-variable-before-exporting-as-module) - Assign object to variable before exporting as module default
 
 ## Author
 

@@ -98,6 +98,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - [ReactJS](https://reactjs.org/tutorial/tutorial.html) - How to set up a local development environment on your computer
 - [FontAwesome](https://fontawesome.com/v5/docs/web/use-with/react) - How to install FontAwesome packages for React -[BobbyHadz](https://bobbyhadz.com/blog/react-assign-object-to-variable-before-exporting-as-module) - Assign object to variable before exporting as module default
+- [Developer Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) - Detect if the user has requested a light or dark color theme
 
 ## Author
 

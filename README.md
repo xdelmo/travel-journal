@@ -49,7 +49,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ### What I learned
 
-This is my way to display dynamic divider between the second, third (and so on) card but not on the last one:
+- This is my way to display dynamic divider between the second, third (and so on) card but not on the last one:
 
 ```css
 .card {
@@ -67,6 +67,30 @@ This is my way to display dynamic divider between the second, third (and so on) 
 
 .cards-list .card:last-child {
   padding-bottom: 0;
+}
+```
+
+- How to implement dark mode via CSS:
+
+```css
+@media (prefers-color-scheme: light) {
+  :root {
+    --clr-text-main: #2b283a;
+    --clr-text-light: #918e9b;
+
+    --clr-background-light: #ffffff;
+  }
+}
+
+/* Dark Mode */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --clr-text-main: #fff;
+    --clr-text-light: #e5e5e5;
+
+    --clr-background-light: #1d1d1c;
+  }
 }
 ```
 

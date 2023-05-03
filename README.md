@@ -32,6 +32,7 @@ This is a solution to the [Travel Journal solo project on Scrimba](https://scrim
 ### Links
 
 - Live Site URL: [@Netlify](https://travel-journal-xdelmo.netlify.app/)
+- Figma Design URL: [@Figma](https://www.figma.com/file/QG4cOExkdbIbhSfWJhs2gs/Travel-Journal?node-id=0-1&t=ahiWj15FjdRROJsl-0)
 - Solution URL: [@GitHub](https://github.com/xdelmo/travel-journal)
 
 ### Getting Started with Create React App
